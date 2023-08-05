@@ -1,0 +1,87 @@
+*
+{
+    margin: 0;
+    padding: 0;
+}
+body
+{
+    font-size: 100%;
+    padding: 15px;
+}
+img
+{
+    margin-left: 15px;
+    width: 150px;
+}
+h1
+{
+    display: inline-block;
+    position: absolute;
+    font-size: 35px;
+    padding-top: 100px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+h2
+{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    display: inline-block;
+    font-size: 20px;
+    color: rgb(121, 121, 121);
+    margin-left: 1px;
+}
+p
+{
+    color: rgb(70, 70, 70);
+    font-size: 12px;
+}
+td
+{
+    text-align: center;
+    padding: 10px;
+}
+tr
+{
+    background-color: rgb(249, 249, 249);
+}
+tr:first-child
+{
+    background-color: rgb(218, 218, 218);
+}
+h3
+{
+    font-size: 30px;
+    padding: 4px 0px;
+}
+h4
+{
+    font-size: 30px;
+    padding-top: 10px;
+    padding-bottom: 4px;
+}
+table
+{
+    width: 100%;
+    border-collapse: collapse;
+}
+th, td
+{
+    font-size: 25px;
+    white-space: nowrap;
+}
+.tab
+{
+    overflow-x: auto;
+    margin-left: 5px;
+}
+.freeze
+{
+    position: absolute;
+    top: auto;
+    left: auto;
+    width: 0;
+    /* background-color: #fff; */
+}
+/* .tab::-webkit-scrollbar
+{
+    display: none;
+} */
